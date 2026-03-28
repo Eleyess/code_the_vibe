@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Gallery | Light/Dark Mode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Header with Theme Toggle -->
+        <header class="header">
+            <h1 class="title">✨ Product Gallery</h1>
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+                🌙
+            </button>
+        </header>
+
+        <!-- Product Gallery Grid -->
+        <main class="gallery">
+            <!-- Product Card 1 -->
+            <div class="product-card fade-in">
+                <div class="card-image">
+                    <img src="https://picsum.photos/id/20/400/300" alt="Modern Headphones">
+                    <div class="card-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="product-title">Premium Headphones</h3>
+                    <p class="product-description">Immersive sound experience with noise cancellation technology.</p>
+                    <div class="product-footer">
+                        <span class="price">$199.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card fade-in">
+                <div class="card-image">
+                    <img src="https://picsum.photos/id/0/400/300" alt="Smart Watch">
+                    <div class="card-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="product-title">Smart Watch Pro</h3>
+                    <p class="product-description">Track your fitness, receive notifications, and style your wrist.</p>
+                    <div class="product-footer">
+                        <span class="price">$299.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card fade-in">
+                <div class="card-image">
+                    <img src="https://picsum.photos/id/1/400/300" alt="Wireless Speaker">
+                    <div class="card-overlay">
+                        <button class="quick-view">Quick View</button>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="product-title">Wireless Speaker</h3>
+                    <p class="product-description">360° sound, waterproof, and 20 hours of battery life.</p>
+                    <div class="product-footer">
+                        <span class="price">$149.99</span>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Optional Footer -->
+        <footer class="footer">
+            <p>© 2024 Product Gallery | All rights reserved</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
